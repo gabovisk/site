@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    background-color: #01197A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;  
+}
+
+.conteudo{
+    border-top: 2px solid rgba(255, 255, 255, 0.001);
+    background: linear-gradient(180deg, #001878 0%, rgba(0, 35, 174, 0.96) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+
+    padding-left: 220px
+    padding-right: 800px
+    padding-top: 46px
+    padding-bottom: 360px
+    
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 32px;
+    width: 481px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+.principal{
+    width: 382px;
+    height: 229px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.descricao{
+    padding-top: 56px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero{
+    width: 474px;
+    height: 410px;
+    top: 147px;
+    left: 613px;
+    border-radius: 25px;
+}
