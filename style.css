@@ -12,38 +12,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 24px;
-}
-
-.cabecalho-imagem {
-    height: 72px;  
-}
-
-.conteudo{
-    border-top: 2px solid rgba(255, 255, 255, 0.001);
-    background: linear-gradient(180deg, #001878 0%, rgba(0, 35, 174, 0.96) 100%);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    align-items: center;
-
-    padding-left: 220px
-    padding-right: 800px
-    padding-top: 46px
-    padding-bottom: 360px
+    justify-content: space-evenly;
+    padding: 15px;
     
 }
 
-body{
-    font-size: 100%;
-}
-
-.cabecalho_menu {
-    display: flex;
-    gap: 32px;
-    width: 481px;
-    height: 22px;
-    flex-shrink: 0;
+.cabecalho-imagem{
+    height: 72px;
 }
 
 .cabecalho-menu-item{
@@ -56,33 +31,82 @@ body{
     padding: 10px;
 }
 
-.principal{
-    width: 382px;
-    height: 229px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
 
+.main{
+    border-top: 2px solid rgba(255, 255, 255, 0.001);
+    background: linear-gradient(180deg, #001878 0%, rgba(0, 35, 174, 0.96) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.descricao{
-    padding-top: 56px;
-    color: #FFF;
+.container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.descricao-principal{
     font-family: Manrope;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 27px;
+
 }
 
-.hero{
-    width: 474px;
-    height: 410px;
-    top: 147px;
-    left: 613px;
-    border-radius: 25px;
+.texto-principal{
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.sub-texto{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #b2c7f5;
+}
+
+.c-btn{
+    text-align: center;
+}
+
+.btn1{
+    border: none;
+    background-color: #004bdd;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 10px 90px;
+    border-radius: 20px;
+
+}
+
+.linha-vertical {
+    border-top: 2px solid #000; /* Cria uma linha vertical sólida de 1 pixel na cor preta */
+    height: 5px; /* Define a altura da linha */
+}
+
+.lado-a{
+    margin-right: 25px;
+}
+
+body{
+    font-size: 100%;
 }
